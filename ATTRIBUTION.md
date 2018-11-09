@@ -1,0 +1,1 @@
+Icons obtained from [game-icons.net](game-icons.net), authored by [Sbed](http://opengameart.org/content/95-game-icons)
