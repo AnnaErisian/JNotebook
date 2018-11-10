@@ -9,10 +9,13 @@ class BinderView: View() {
     }
     val binder = Binder("/nbktests", SimpleDropboxClientLocal)
     override val root = scrollpane {
+        prefHeight = 500.0
+        prefWidth = 700.0
         hbarPolicy = ScrollPane.ScrollBarPolicy.NEVER
 //        isFitToHeight = true
         isFitToWidth = true
         flowpane {
+
             for (journal in binder.journals) {
                 journalPanel(journal)
             }
